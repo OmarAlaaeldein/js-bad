@@ -4,7 +4,7 @@ function factorial(num) {
     }
     return num * factorial(num - 1);
   }  
-console.log(factorial(2)); // 40320
+console.log(factorial(2));
 
 function power(a,b){
     if (b===1){
