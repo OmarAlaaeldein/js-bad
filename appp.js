@@ -15,3 +15,5 @@ let server=http.createServer((req,res)=>{
 let port=7000;
 console.log(`Server is running on port ${port}`);
 server.listen(port);
+let ms=Date.now()
+setInterval(()=>{ms2=Date.now();console.log(`time discrepency is: ${ms2-ms-1000}ms`);ms=ms2},1000)
